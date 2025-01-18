@@ -1,14 +1,14 @@
 ## SALES FORECASTING
 
 ### CONTENT:
-* INTRODUCTION
-* DATA COLLECTION
-* DATA PREPROCESSING
-* EXPLORATORY DATA ANALYSIS
-* BUILDING MODEL
-* PREDICTIONS
-* DATA VISUALIZATION
-* SUMMARY
+* [INTRODUCTION](#introduction)
+* [DATA COLLECTION](#data-collection)
+* [DATA PREPROCESSING](#data-preprocessing)
+* [EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
+* [BUILDING MODEL](#building-model)
+* [PREDICTIONS](#predictions)
+* [DATA VISUALIZATION](#data-visualization)
+* [SUMMARY](#summary)
 
 
 #### INTRODUCTION
@@ -19,5 +19,10 @@ The sales forecasting data includes several key columns:
 3. OnPromotion: This column indicates whether the products were on promotion during the recorded date, which can significantly impact sales figures.
 4. Family: This refers to the category or family of products, helping to segment sales data and analyze trends across different product types.
 
+
 #### DATA COLLECTION
 he dataset was downloaded from Kaggle and the specific dataset used is the "Store Sales-Time Series Forecasting" dataset, which contains dates, store and product information, whether that item was being promoted, as well as the sales numbers. The dataset is publicly available and can be accessed [Here](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
+
+
+#### DATA PREPROCESSING
+
