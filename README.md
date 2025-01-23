@@ -21,8 +21,18 @@ The sales forecasting data includes several key columns:
 
 
 #### DATA COLLECTION
-he dataset was downloaded from Kaggle and the specific dataset used is the "Store Sales-Time Series Forecasting" dataset, which contains dates, store and product information, whether that item was being promoted, as well as the sales numbers. The dataset is publicly available and can be accessed [Here](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
+The dataset was downloaded from Kaggle and the specific dataset used is the "Store Sales-Time Series Forecasting" dataset, which contains dates, store and product information, whether that item was being promoted, as well as the sales numbers. The dataset is publicly available and can be accessed [Here](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
 
 
 #### DATA PREPROCESSING
-
+Data preprocessing is a crucial step in sales forecasting as it ensures the quality and reliability of the data used for building predictive models. It involves:
+* Identify and address missing values in the dataset.
+  ```
+    df.isnull().sum()
+  ```
+  ![image](https://github.com/user-attachments/assets/5698db49-f47f-4f50-a2c6-cfcca44fdeec)
+* Ensuring there are no duplicate records in the dataset, as they can skew the analysis and predictions.
+```
+   df.duplicated().sum()
+```
+![image](https://github.com/user-attachments/assets/6552cd86-7e32-4d1c-afc4-33b7cb2fbe88)
