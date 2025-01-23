@@ -7,7 +7,6 @@
 * [EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
 * [MODEL EVALUATION](#model-evaluation)
 * [PREDICTIONS](#predictions)
-* [DATA VISUALIZATION](#data-visualization)
 * [SUMMARY](#summary)
 
 
