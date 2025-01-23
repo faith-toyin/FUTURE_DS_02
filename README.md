@@ -179,3 +179,27 @@ print(f'Root Mean Squared Error (RMSE): {rmse}')
 ```
 ![image](https://github.com/user-attachments/assets/c4463cb1-2f80-4b08-a3b3-7b2e63487eb8)
 
+
+#### PREDICTIONS
+```
+forecast = model_fit.forecast(steps=10)
+
+# Actual values for comparison (using the last 10 values of the dataset)
+actual = df['Sales'][-10:]
+
+# Plot forecast
+plt.figure(figsize=(12, 6))
+plt.plot(df.index, df['Sales'], label='Sales')
+plt.plot(pd.date_range(start=df.index[-1], periods=11, freq='D')[1:], forecast, label='Forecast')
+plt.title('Sales Forecast')
+plt.xlabel('Date')
+plt.ylabel('Sales')
+plt.legend()
+plt.show()
+```
+![image](https://github.com/user-attachments/assets/818cc53c-20b9-4bea-91ee-58a97a0c3854)
+
+
+#### SUMMARY
+The sales forecast analysis reveals a consistent upward trend in sales, indicating steady growth. Seasonal patterns and promotions significantly impact sales, highlighting the importance of optimizing stock levels and marketing strategies. Different product families and stores exhibit varying sales performance, providing opportunities to tailor strategies. The forecasted sales closely align with actual sales data, ensuring reliable predictions for informed decision-making and strategic planning.
+
